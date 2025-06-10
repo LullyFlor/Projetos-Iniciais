@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&display=swap');
+
+body {
+  background: mintcream;
+  font-family: Poppins;
+  text-align: center;
+}
+
+h1 {
+  background: turquoise;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+div {
+  border-style: dashed;
+}
+
+p {
+  font-weight: bold;
+}
+
+span {
+  font-weight: lighter;
+}
