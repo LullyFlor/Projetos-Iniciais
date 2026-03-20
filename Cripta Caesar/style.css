@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Caesar Cipher Translator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2>Caesar Cipher Translator</h2>
+    <label>Shift (1-25):</label>
+    <input type="number" id="shift" value="1" min="1" max="25">
+    <label>Enter your text:</label>
+    <textarea id="plaintext" rows="4" cols="50"
+      placeholder="Enter your text here..."></textarea>
+    <h3>Translated Text:</h3>
+    <p id="output"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
